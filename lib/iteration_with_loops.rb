@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def join_nested_strings(src)
   row_index = 0
@@ -14,5 +14,4 @@ def join_nested_strings(src)
         row_index += 1
     end
     total_strings
-    binding.pry
 end
